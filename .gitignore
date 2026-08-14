@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated pipeline state
+quantum_allostery_v4_0_4/
+quantum_allostery_checkpoints/
+checkpoints/
+*.pkl
+*.pt
+
+# Generated evidence / large outputs
+competition_v4_1/
+phase3_cleanroom_seals/
+*_NxN_quantum_connectivity.csv
+*_NxN_classical_connectivity.csv
+*_connectivity_matrices.npz
+*_interactive_3d.html
+
+# Optional local calibration input
+allosteric_calibration.csv
